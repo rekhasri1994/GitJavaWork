@@ -1,0 +1,7 @@
+Public class A{
+Public static void main(String[] args)
+{
+String curdir=System.getProperty("user.dir");
+System.out.println(curdir);
+}
+}
