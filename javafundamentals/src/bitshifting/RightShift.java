@@ -1,9 +1,9 @@
+package bitshifting;
 
-public class HelloWorld {
+public class RightShift {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		System.out.println("\"hello hcl\" \t rekha");
 
 	}
 
