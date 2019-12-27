@@ -1,0 +1,69 @@
+package methods2relationship1;
+
+
+public class Contactdetail1 
+{
+	private String mobile,altmobile,landline,email,address;
+	
+	Contactdetail1(){}
+
+	public Contactdetail1(String mobile, String altmobile, String landline, String email, String address) {
+		super();
+		this.mobile = mobile;
+		this.altmobile = altmobile;
+		this.landline = landline;
+		this.email = email;
+		this.address = address;
+	}
+
+	
+
+	public String getMobile() {
+		return mobile;
+	}
+
+	public void setMobile(String mobile) {
+		this.mobile = mobile;
+	}
+
+	public String getAltmobile() {
+		return altmobile;
+	}
+
+	public void setAltmobile(String altmobile) {
+		this.altmobile = altmobile;
+	}
+
+	public String getLandline() {
+		return landline;
+	}
+
+	public void setLandline(String landline) {
+		this.landline = landline;
+	}
+
+	public String getEmail() {
+		return email;
+	}
+
+	public void setEmail(String email) {
+		this.email = email;
+	}
+
+	public String getAddress() {
+		return address;
+	}
+
+	public void setAddress(String address) {
+		this.address = address;
+	}
+	
+	
+	
+	@Override
+	public String toString() {
+		return "Contact detail:\nMobile:" + mobile + "\nAlternate mobile:" + altmobile + "\nLandLine:" + landline + "\nEmail:"
+				+ email + "\nAddress:" + address + "";
+	}
+
+}
